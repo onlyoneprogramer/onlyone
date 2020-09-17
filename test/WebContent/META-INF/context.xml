@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<resource>
+	name="jdbc/MySQLDB"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="root"
+	password="dlwlsgh8547!"
+	driverClassName="com.mysql.jdbc.Driver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:mysql://localhost:3306/klige"
+	maxActive="500"
+	</resource>
+</Context>
